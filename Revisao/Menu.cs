@@ -19,6 +19,7 @@ namespace Revisao
 
         private void bt_divisao_Click(object sender, EventArgs e)
         {
+        /* Abrir outro form*/
             Divisao dv = new Divisao();
             dv.ShowDialog();
         }
